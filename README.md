@@ -72,7 +72,7 @@ MIT
 ## 후원
 * [후원 페이지](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R5EKF6TRDDXE8&currency_code=USD&source=url)
 
-후원을 해주시면 저같은 오픈소스 소프트웨어 개발자에게 도움이 됩니다.
+후원을 해주시면 저같은 오픈소스 개발자에게 도움이 됩니다.
 
 ## 저작자:
 * 이름: 트리지
