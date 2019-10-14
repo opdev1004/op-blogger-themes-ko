@@ -1,6 +1,9 @@
 # OP 구글 블로그 (블로거) 테마
 
 ## 공지:
+### 새 업데이트를 준비하세요!
+새 업데이트를 준비하고 있습니다. 몇몇 테마들은 삭제될 예정이며, 새 테마와 새 시스템이 설치과정을 간략화 할 것 입니다.
+
 ### 추천하는 테마
 * [New Day](https://github.com/opdev1004/op-blogger-themes-ko/tree/master/2_Columns/New_Day): 2단형의 최신 테마로, 모바일 SEO 문제점을 해결하고 CSS 변수를 색과 폰트로 간략화했습니다.
 * [The Beginning](https://github.com/opdev1004/op-blogger-themes-ko/tree/master/1_Column/The_beginning): 1단 프로토타입 테마로, 모바일 SEO 문제점이 없습니다.
