@@ -4,6 +4,7 @@
 
   <head>
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
+
     <b:if cond='data:view.isPost '>
       <meta expr:content='data:blog.title' name='author'/>
       <meta expr:content='data:blog.title' name='writer'/>
@@ -24,7 +25,7 @@
         Name:     OP
         Designer: Victor Chanil Park
         License:  MIT
-        URL:      https://github.com/opdev1004/op-blogger-themes-ko
+        URL:      https://github.com/opdev1004/op-blogger-themes
         -----------------------------------------------
         */
         /*
@@ -407,7 +408,7 @@
 		main .post-feeds
 		{
 			background-color: $(main.color);
-			margin: 10px;
+			margin: 10px 0px;
 			padding: 10px;
 			border-radius: 2px;
 		}
@@ -643,7 +644,7 @@
 		/* Blog Pager */
 		main .blog-pager
 		{
-			margin: 20px 10px;
+			margin: 20px 0px;
 			padding: 0px;
 			display: flex;
 			justify-content: space-between;
@@ -723,17 +724,17 @@
 		}
 
 
-        @media all and (min-width: 0px)  and (max-width: 960px) {
+        @media all and (min-width: 0px)  and (max-width: 980px) {
 			#sidebar
       {
-          font-size: 1em;
+                font-size: 1em;
       }
 
       #sidebar #sidebarLeft #SidebarTop .widget,
-  		#sidebar #sidebarLeft #SidebarBottom .widget
-  		{
-  			padding: 5px 0px;
-  		}
+      #sidebar #sidebarLeft #SidebarBottom .widget
+      {
+        			padding: 5px 0px;
+      }
 
 			main
 			{
@@ -1430,31 +1431,33 @@
 	<main>
 		<div class='empty'/>
     	<b:section class='Content' id='Content' name='Content' showaddelement='yes'>
-<b:widget id='Blog1' locked='true' title='블로그 게시물' type='Blog' version='2' visible='true'>
+<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
   <b:widget-settings>
-    <b:widget-setting name='showDateHeader'>false</b:widget-setting>
     <b:widget-setting name='commentLabel'>댓글</b:widget-setting>
-    <b:widget-setting name='style.textcolor'>#72ab72</b:widget-setting>
     <b:widget-setting name='showShareButtons'>true</b:widget-setting>
-    <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-    <b:widget-setting name='style.urlcolor'>#659865</b:widget-setting>
-    <b:widget-setting name='showAuthor'>false</b:widget-setting>
+    <b:widget-setting name='authorLabel'>작성자:</b:widget-setting>
     <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
-    <b:widget-setting name='style.linkcolor'>#003c37</b:widget-setting>
     <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-    <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
     <b:widget-setting name='timestampLabel'>날짜:</b:widget-setting>
     <b:widget-setting name='reactionsLabel'>리액션:</b:widget-setting>
     <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
     <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-    <b:widget-setting name='showLabels'>true</b:widget-setting>
     <b:widget-setting name='showLocation'>false</b:widget-setting>
     <b:widget-setting name='showTimestamp'>true</b:widget-setting>
     <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-    <b:widget-setting name='showBacklinks'>false</b:widget-setting>
     <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-    <b:widget-setting name='showInlineAds'>false</b:widget-setting>
     <b:widget-setting name='backlinksLabel'>백링크:</b:widget-setting>
+    <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+    <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+    <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+    <b:widget-setting name='style.urlcolor'>#cccccc</b:widget-setting>
+    <b:widget-setting name='showAuthor'>false</b:widget-setting>
+    <b:widget-setting name='style.linkcolor'>#cccccc</b:widget-setting>
+    <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+    <b:widget-setting name='showLabels'>true</b:widget-setting>
+    <b:widget-setting name='postLabelsLabel'>라벨:</b:widget-setting>
+    <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+    <b:widget-setting name='showInlineAds'>false</b:widget-setting>
     <b:widget-setting name='showReactions'>false</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main' var='this'>
